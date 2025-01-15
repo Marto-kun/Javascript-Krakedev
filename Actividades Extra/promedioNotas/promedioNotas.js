@@ -11,4 +11,9 @@ calcularPromedioNotas = function () {
   promedio = calcularPromedio(n1, n2, n3).toFixed(2);
   msg = "Tu promedio es: " + promedio;
   cambiarTexto("lblPromedio", msg);
+  if (promedio > 7) {
+    cambiarImagen("img", "./gifs/momoLikey.gif");
+  } else {
+    cambiarImagen("img", "./gifs/escandalosos.gif");
+  }
 };
