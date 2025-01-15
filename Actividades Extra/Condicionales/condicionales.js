@@ -11,7 +11,7 @@ calcularTasaInteres = function (ingresoAnual) {
     return (valorTasa = 0.14);
   } else if (ingresoAnual >= 1000000 && ingresoAnual < 2000000) {
     return (valorTasa = 0.13);
-  } else if (ingresoAnual > 2000000) {
+  } else {
     return (valorTasa = 0.12);
   }
 };
