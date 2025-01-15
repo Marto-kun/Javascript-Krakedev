@@ -1,0 +1,68 @@
+body {
+  background-color: aquamarine;
+  background-image: url(fondoEspacio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ttl {
+  /*background-color: cornflowerblue;*/
+  font-size: 40px;
+  color: aliceblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.opc {
+  /*background-color: azure;*/
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: cadetblue;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.abt {
+  /*background-color: cyan;*/
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: tomato;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.logo {
+  width: 150px;
+  margin: 20px;
+}
+
+.contenedorImg {
+  /*background-color: darkseagreen;*/
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 25px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
