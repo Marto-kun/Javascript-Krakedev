@@ -121,7 +121,7 @@ otorgarPermiso = function (nMate, nFisica, nGeo) {
 dejarSalir = function (nMate, nFisica, nGeo) {
   if ((nMate > 90 || nFisica > 90 || nGeo > 90) && nFisica > nMate) {
     return true;
-  }else{
+  } else {
     return false;
   }
 };
